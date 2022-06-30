@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+nav {
+    margin: 1rem;
+    width: 100%;
+    height: 2rem;
+}
+
+nav > a {
+    margin: 1rem;
+    padding: .5rem;
+    background-color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: .5rem;
+    color: yellow;
+}
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Description and head */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: green;
+}
+
+.hero-image {
+    max-width: 18rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+}
+
+p {
+    width: 25rem;
+}
+
+/* Ingredients section */
+ul.ingredients {
+    display: grid;
+    margin: 1rem 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem 2rem;
+    grid-template-rows: 6;
+    list-style-type: disc;
+}
+
+/* Preparation section */
+h4 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}

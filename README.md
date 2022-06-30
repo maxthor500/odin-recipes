@@ -79,6 +79,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Inspiration: Odin Project
+- References: Giallo Zafferano
